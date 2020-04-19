@@ -1,0 +1,211 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Spartan', serif;
+  color: #1f1f2e;
+}
+
+#about {
+  height: 600px;
+}
+
+#portfolio {
+  height: 650px;
+}
+
+#contact {
+  height: 450px;
+}
+
+/***** GRID *****/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header{
+  height: 600px;
+}
+
+header h1{
+  font-family: 'Spartan', serif;
+  font-size: 50px;
+  color: #1f1f2e;
+  padding-top: 200px;
+  padding-left: 20px;
+  letter-spacing: 5px;
+}
+
+header h1 span{
+  font-family: 'Sacramento', cursive;
+  font-size: 85px;
+  color: #ea7560;
+  line-height: 60px;
+}
+
+header h2{
+  font-family: 'Spartan', serif;
+  font-size: 31px;
+  line-height: 37.2px;
+  text-align: left;
+}
+
+nav{
+  margin: 0;
+  float: right;
+  padding: 60px 60px 60px;
+  padding-top: 80px;
+}
+
+nav ul li{
+  display: inline;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px;
+}
+
+nav ul li a {
+  color: #ff654a;
+  text-decoration: none;
+}
+
+
+/***** ABOUT *****/
+#about {
+  background-color: #82ca9c;
+  padding-top: 100px;
+  text-align: center;
+  display: block;
+}
+
+#about h3 {
+  font-family: 'Spartan', serif;
+  font-size: 50px;
+  color: #fafcfb;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#about p{
+  font-size: 25px;
+  color: #fafcfb;
+  text-align: justify;
+}
+
+#headshot {
+  padding: 2px;
+  border: 4px solid #fafcfb;
+  background-color: #ea7560;
+}
+
+/****** PORTFOLIO *****/
+#portfolio h3 {
+  font-family: 'Spartan', serif;
+  font-size: 50px;
+  color: #1f1f2e;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#portfolio h4{
+  font-size: 30px;
+  color: #1f1f2e;
+  text-align: right;
+}
+
+
+#portfolio p {
+  font-size: 20px;
+  text-align: right;
+  color: #ea7560;
+}
+
+#portfolio span{
+  color: #ff654a;
+}
+
+#portfolio img{
+  float: right;
+  padding: 25px 25px;
+}
+
+/***** CONTACT *****/
+#contact{
+  background-color: #82ca9c;
+}
+
+#contact h3{
+  font-family: 'Spartan', serif;
+  color: #fafcfb;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#contact h4{
+  font-family: 'Spartan', serif;
+  font-size: 30px;
+  color: #fafcfb;
+  text-align: center;
+}
+
+#contact p{
+  font-size: 20px;
+  color: #fafcfb;
+  text-align: center;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li{
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/***** BLOG *****/
+#pencil {
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.blog {
+  height: 450px;
+}
+
+.entry h2{
+  font-family: 'Spartan', serif;
+  color: #fafcfb;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-top: 2px solid #fafcfb;
+}
+
+.entry {
+  background-color: #82ca9c;
+}
+
+.entry p {
+  font-size: 20px;
+  color: #fafcfb;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+}
